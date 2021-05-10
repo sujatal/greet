@@ -1,0 +1,29 @@
+const greet (args) 
+{
+    args {
+
+        userType : Number,
+        firstName : string ,
+        lastName : string
+    };
+
+
+  if( userType = 1)
+   {
+       return "Validator";
+   } 
+  else if ( userType = 2)
+  {
+      return  "Miner";
+
+  }
+  else 
+  {
+       return "Normal user";
+  }
+
+
+};
+console.log(1 , "Thank you " + firstName , + lastName ,"for your validation .");
+console.log(2 , "Thank you " + firstName , + lastName ," for keeping the network secure");
+console.log (3,"Thank you " + firstName ,+lastName ,"for using platform ." );
