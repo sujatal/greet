@@ -24,6 +24,6 @@ const greet (args)
 
 
 };
-console.log(1 , "Thank you " + firstName , + lastName ,"for your validation .");
-console.log(2 , "Thank you " + firstName , + lastName ," for keeping the network secure");
-console.log (3,"Thank you " + firstName ,+lastName ,"for using platform ." );
+console.log(greet(1 , "Thank you " + firstName , + lastName ,"for your validation ."));
+console.log(greet(2 , "Thank you " + firstName , + lastName ," for keeping the network secure"));
+console.log(greet (3,"Thank you " + firstName ,+lastName ,"for using platform ." ));
